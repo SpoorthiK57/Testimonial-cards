@@ -1,0 +1,233 @@
+body{
+    justify-content: center;
+}
+
+.main{
+    
+    text-align: center;
+    border: 1.5px black solid;
+    margin: auto;
+    width: 630px;
+    height: 778px;
+}
+.row1, .row3 {
+    position: relative;
+    height: 267px;
+    width: 630px;
+}
+
+.row2{
+    position: relative;
+    height: 242px;
+    width: 630px;
+}
+
+.main1{
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    float: left;
+}
+.main2{
+    height: 235px;
+    width: 299px;
+    text-align: center;
+    float: right;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    margin: 12px;
+}
+.main3{
+    height: 215px;
+    width: 200px;
+    text-align: center;
+    float: left;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    margin: 10px;
+}
+.main4{
+    height: 215px;
+    width: 381px;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    margin: 10px;
+}
+.main5{
+    height: 250px;
+    width: 607px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    margin: 10px;
+}
+.subdiv1{
+    color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    height: 150px;
+    margin: 10px;
+    padding: 0px 16px;
+    text-align: left;
+}
+.subdiv2{
+    height: 80px;
+    width: 280px;
+    margin: 10px;
+}
+.subdiv3{
+    height: 110px;
+    width: 266px;
+    margin: 10px;
+    text-align: left;
+    padding: 0px 6px;
+
+}
+.subdiv4{
+    height: 80px;
+    width: 280px;
+    margin: 10px;
+}
+.subdiv5{
+    height: 48px;
+    width: 200px;
+
+}
+.stars {
+    display: flex;
+    /* gap: 0px; */
+    height: 10px;
+    width: 200px;
+    padding: 16px 22px;
+}
+
+.star {
+    font-size: 28px;
+    color: gold;
+}
+.light{
+    color:grey
+}
+.subdiv6{
+    background-color: black;
+    color: white;
+    height: 136px;
+    width: 333px;
+    padding: 0px 24px 10px;
+    text-align: left;
+    border-radius: 25px;
+    
+}
+.subdiv7{
+    height: 90px;
+    width: 455px;
+    text-align: center;
+    padding: 22px 76px;
+    
+}
+    
+.pic{
+    height: 215px;
+    width: 200px;
+    border-radius: 25px;
+}
+.pic2{
+    height: 57px;
+    width: 57px;
+    border-radius: 63px;
+    float: left;
+    padding: 7px;
+}
+
+.image{
+    float: left;
+    width: 75px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 0px;
+}
+.title{
+
+    float: right;
+    width: 201px;
+    height: 63px;
+    text-align: left;
+}
+.text-edit{
+    
+    font-weight: bold;
+    font-size: large;
+    padding: 15px 0px;
+}
+
+.subdiv8 {
+    height: 100px; /* Set height to 100px */
+    width: 606px;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;    /* Center content vertically */
+    background-color: #f9f9f9;
+}
+
+.center1 {
+    display: flex;
+    align-items: center; /* Vertically align all items */
+    justify-content: center; /* Horizontally center all items */
+    gap: 20px; /* Space between elements */
+    width: 100%; /* Occupy the full width of subdiv8 */
+    height: 100%; /* Occupy the full height of subdiv8 */
+}
+
+.arrow {
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left, .middle, .right {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Align images in the middle */
+    position: relative; /* For positioning text relative to the image */
+}
+
+.pic4 { /* Side images */
+    height: 40px; /* Smaller height for side images */
+    width: 40px; /* Smaller width for side images */
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Maintain aspect ratio */
+    opacity: 0.5; /* Lighten side images */
+    transition: opacity 0.3s;
+}
+
+.pic3 { /* Middle image */
+    height: 50px; /* Larger height for middle image */
+    width: 50px; /* Larger width for middle image */
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Maintain aspect ratio */
+    opacity: 1; /* Full opacity for middle image */
+}
+
+.middle h4 {
+    position: absolute; /* Position text below the middle image */
+    bottom: -23px; /* Adjust position to ensure alignment */
+    font-size: 15px; /* Adjust font size for better fit */
+    color: #333; /* Text color */
+    margin: 0; /* Remove margins for precise alignment */
+    text-align: center; /* Center text below the image */
+}
+
+.pic4:hover {
+    opacity: 1; /* Restore opacity on hover for side images */
+}
+.body{
+    margin-top: 8px;
+}
